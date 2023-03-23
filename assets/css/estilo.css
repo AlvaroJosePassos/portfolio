@@ -68,13 +68,13 @@ nav a:hover {
 }
 
 section {
-    padding: 4em 0;
+    padding: 2em 0;
     text-align: center;
 }
 
 section h3 {
     font-size: 4em;
-    margin-bottom: 2em;
+    margin-bottom: 0.6em;
 }
 
 section ul {
@@ -86,10 +86,12 @@ section ul {
 
 section p {
     font-size: 1.4em;
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 section li {
-    width: 31em;
+    width: 30em;
     margin: 2em;
     background-color: #fff;
     border-radius: 0.5em;
@@ -109,7 +111,7 @@ section li h4 {
 
 section li p {
     font-size: 1.6em;
-    padding: 2em;
+    padding: 1em;
 }
 
 #skills li {
