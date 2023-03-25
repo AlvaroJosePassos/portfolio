@@ -9,9 +9,6 @@ html {
 }
 
 @media (max-width: 768px) {
-    html {
-        font-size: 50%;
-    }
 
     nav ul {
         display: flex;
@@ -32,7 +29,7 @@ html {
 
     #hero h1 {
         font-size: 3rem;
-        margin-top: 0.3rem;
+        margin-top: 3rem;
         text-align: center;
     }
 
@@ -41,6 +38,12 @@ html {
         text-align: center;
         margin-bottom: 2rem;
     }
+
+    section {
+        padding: 0em 0;
+        text-align: center;
+    }
+
 
     #about p {
         font-size: 1.6rem;
@@ -127,10 +130,6 @@ nav a:hover {
     margin-bottom: 1em;
 }
 
-section {
-    padding: 2em 0;
-    text-align: center;
-}
 
 section h3 {
     font-size: 4em;
