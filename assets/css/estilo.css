@@ -55,7 +55,6 @@ html {
 
     section {
         padding: 2.2em 0;
-        text-align: center;
     }
 
 
@@ -69,11 +68,6 @@ html {
 
     #projects li {
         margin-bottom: 2em;
-    }
-
-    #contact {
-        margin-top: 3em;
-        text-align: center;
     }
 
     #contact button {
@@ -144,10 +138,15 @@ nav a:hover {
     margin-bottom: 1em;
 }
 
+section {
+    text-align: center;
+}
 
 section h3 {
     font-size: 4em;
     margin-bottom: 0.6em;
+    text-align: center;
+    padding: 0.6em;
 }
 
 section ul {
@@ -196,6 +195,11 @@ section li p {
     font-size: 1.4em;
 }
 
+
+#contact {
+    text-align: center;
+}
+
 #projects a {
     color: #000000;
     text-decoration: none;
@@ -206,11 +210,12 @@ section li p {
     color: #8a5ed7;
 }
 
+
 #contact a button {
     width: 3em;
     height: 3em;
     margin: 0.4em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.5em;
     border-radius: 50%;
     border: none;
     transition: all 0.3s ease;
