@@ -23,6 +23,15 @@ html {
         margin-bottom: 1rem;
     }
 
+
+    nav a {
+        font-size: 1em;
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+
     header {
         height: 80px;
         display: flex;
