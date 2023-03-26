@@ -17,6 +17,7 @@ html {
     nav ul {
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     nav li {
@@ -37,6 +38,7 @@ html {
 
     #hero {
         margin-top: 0rem;
+        padding: 0em 0;
     }
 
     #hero h1 {
