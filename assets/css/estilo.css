@@ -20,9 +20,8 @@ html {
     }
 
     nav li {
-        margin-bottom: 1rem;
+        margin-bottom: 0em;
     }
-
 
     nav a {
         font-size: 1.8em;
